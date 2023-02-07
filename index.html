@@ -13,14 +13,13 @@
     <h1>Sketch Away!</h1>
     <div id="sketchpad"></div>
     <div class="buttons">
-        <button>Black</button>
-        <button>Rainbow</button>
-        <button>Fader</button>
-        <button>Eraser</button>
+        <button onclick="colorSet('black')">Black</button>
+        <button onclick="colorSet('rainbow')">Rainbow</button>
+        <button onclick="colorSet('white')">Eraser</button>
     </div>
     <div class="sizer">
-    <input type="text" placeholder="Enter Desired Grid Size" onchange="createPad(this.value)">
-    <button class="buttons" id="setSize">Set Size</button>
+    <input type="text" placeholder="Enter Desired Grid Size(max:100)" onchange="createPad(this.value)">
+    <button>Set Size</button>
     </div>
     </div>
 </body>

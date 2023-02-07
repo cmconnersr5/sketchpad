@@ -16,10 +16,20 @@ body {
     background-color: white;
 }
 
+h1{
+    color: ivory;
+}
+
 .buttons {
     margin: 20px;
 }
 button {
     border-radius: 10px;
     font-size: 20px;
+}
+
+input {
+    font-size: 20px;
+    border-radius: 5px;
+    width: 350px;
 }
