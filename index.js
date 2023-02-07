@@ -27,3 +27,11 @@ function colorChange(){
 function colorSet(x){
     color = x;
 };
+
+function reset() {
+    let sketchpad = document.getElementById('sketchpad');
+    let pixels = sketchpad.querySelectorAll('div');
+    pixels.forEach((div) => {
+        div.style.backgroundColor = 'white';
+    });
+}
