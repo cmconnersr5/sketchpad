@@ -11,7 +11,7 @@ sketchpad.style.gridTemplateRows = `repeat(${size}, 1 fr)`;
 for (i=0; i<(size*size); i++){
     let box = document.createElement('div');
     sketchpad.insertAdjacentElement('beforeend', box);
-    box.addEventListener('mouseover', colorChange)
+    box.addEventListener('dragover', colorChange)
 }} else {
     alert('Size must be greater than 2 and no more than 100')
 }};
