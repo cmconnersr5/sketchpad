@@ -7,5 +7,5 @@ for (i=0; i<(size*size); i++){
     let box = document.createElement('div');
     sketchpad.insertAdjacentElement('beforeend', box);
 }
+}
 
-} createPad(10);
