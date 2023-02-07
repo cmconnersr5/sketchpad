@@ -1,0 +1,25 @@
+body {
+    background-color: darkcyan;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#sketchpad {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: 5px, grey;
+    border-style: solid;
+    background-color: white;
+}
+
+.buttons {
+    margin: 20px;
+}
+button {
+    border-radius: 10px;
+    font-size: 20px;
+}
